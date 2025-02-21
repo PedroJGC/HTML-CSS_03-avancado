@@ -1,0 +1,22 @@
+/*
+    Layouts e evolução
+
+    A evolução dos layouts no CSS trouxe ferramentas mais poderosas e flexíveis:
+    🔹 Table Layout (Obsoleto) ➝ 
+    🔹 Tableless (Float-based) ➝ 
+    🔹 Flexbox (Unidimensional) ➝ 
+    🔹 Grid (Bidimensional e Poderoso)
+
+    🚀 Hoje, Flexbox e Grid são os melhores métodos para criar layouts modernos 
+    e responsivos!
+*/
+
+/* .container {
+    display: flex;
+    justify-content: space-around;
+} */
+
+.container {
+    display: grid;
+    grid-template-columns: 20px 20px;
+}

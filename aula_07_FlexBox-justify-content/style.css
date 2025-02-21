@@ -1,0 +1,17 @@
+/*
+    Flexbox - justify-content
+*/
+ 
+.container {
+    height: 50vh;
+    border: dashed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.item {
+    --hue: 0;
+    text-align: center;
+    background-color: hsl(var(--hue), 100%, 70%);
+}

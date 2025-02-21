@@ -1,0 +1,26 @@
+/*
+    Flexbox - Introdução
+*/
+ 
+.container {
+    border: dashed;
+    display: flex;
+
+    /* row é o padrão */
+    /* flex-direction: row; */
+        
+    /* row-reverse inverte jogando os elementos para a direita */
+    /* flex-direction: row-reverse; */
+    
+    /* column coloca um elemento em cima do outro */
+    /* flex-direction: column; */
+    
+    /* inverte a ordem */
+    flex-direction: column-reverse;
+}
+
+.item {
+    --hue: 0;
+    text-align: center;
+    background-color: hsl(var(--hue), 100%, 70%);
+}

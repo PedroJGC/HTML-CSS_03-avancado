@@ -1,0 +1,32 @@
+/*
+    ## Propriedades fundamentais GRID
+
+    Todo grid é composto de 2 principais grupos:
+    `container: o pai` e `itens: o(s) filhos`
+
+    --
+    ### CONTAINER (pai)
+
+    - display: grid;
+    - grid-template;
+        - grid-template-columns; 
+        - grid-template-rows; ##
+        - grid-template-areas;
+*/
+
+#app {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 100vh;
+
+    border: 1px solid green;
+}
+ 
+#app > div {
+    border: 1px solid red;
+}
+
+span {
+    border: 1px solid blue;
+}

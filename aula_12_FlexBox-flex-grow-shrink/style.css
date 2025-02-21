@@ -1,0 +1,40 @@
+/*
+    Flexbox - sizing
+
+    ## flex-grow
+        - crescimento automático do item
+        - distribuição conforme os espaços vazios
+    ## flex-shrink
+        - encolhimento automático do item
+*/
+ 
+.container {
+    /* height: 50vh; */
+    border: dashed;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* dois eixos */
+    /* align-items: center;  */
+
+    /* um eixo */
+    /* align-content: space-around;  */
+    /* gap: 2rem; */ 
+    /* flex-wrap: wrap; */
+}
+
+.item {
+    --hue: 0;
+    text-align: center;
+    background-color: hsl(var(--hue), 100%, 70%);
+
+    /* width: 120px; */
+    flex-basis: 120px;
+    /* flex-grow: 1; */
+    flex-shrink: 0;
+}
+
+.item:nth-child(2) {
+    /* flex-grow: 2; */
+    flex-shrink: 1;
+}

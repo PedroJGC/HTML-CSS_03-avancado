@@ -1,0 +1,20 @@
+/*
+    Flexbox - align-items
+*/
+ 
+.container {
+    height: 50vh;
+    border: dashed;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    --hue: 0;
+    text-align: center;
+    background-color: hsl(var(--hue), 100%, 70%);
+
+    width: 20px;
+}

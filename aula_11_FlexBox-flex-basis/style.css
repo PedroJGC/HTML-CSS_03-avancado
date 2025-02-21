@@ -1,0 +1,29 @@
+/*
+    Flexbox - sizing
+
+    - flex-basis
+*/
+ 
+.container {
+    height: 50vh;
+    border: dashed;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* dois eixos */
+    /* align-items: center;  */
+
+    /* um eixo */
+    /* align-content: space-around;  */
+    /* gap: 2rem; */ 
+    /* flex-wrap: wrap; */
+}
+
+.item {
+    --hue: 0;
+    text-align: center;
+    background-color: hsl(var(--hue), 100%, 70%);
+
+    /* width: 120px; */
+    flex-basis: 10%;
+}

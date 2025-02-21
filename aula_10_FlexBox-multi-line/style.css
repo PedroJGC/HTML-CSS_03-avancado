@@ -1,0 +1,26 @@
+/*
+    Flexbox - Multi Line
+
+    - flex-wrap
+    - align-content - só é habilitado com o uso do flex-wrap
+*/
+ 
+.container {
+    height: 50vh;
+    border: dashed;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    align-items: center; /* dois eixos */
+    align-content: space-around; /* um eixo */
+    /* gap: 2rem; */ 
+    flex-wrap: wrap;
+}
+
+.item {
+    --hue: 0;
+    text-align: center;
+    background-color: hsl(var(--hue), 100%, 70%);
+
+    width: 120px;
+}
